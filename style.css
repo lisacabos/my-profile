@@ -1,0 +1,59 @@
+.container {
+width: 700px;
+margin: 0 auto;
+background-color: skyblue;
+padding: 20px;
+box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+text-align: center;
+border-radius:  6px: ;
+}
+
+img	{
+	width: 200px;
+	height: 260px;
+	border-radius: 50%;
+
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	margin: 16px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	text-align: center;
+}
+
+
+#card-name {
+	font-size: 54px;
+}
+
+#img-card-1 {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 50%), url("images/image-makeup.jpeg")
+}
+
+#card-gradient {
+	color: white;
+	background: linear-gradient(-220deg, green 0%, yellow 75%);
+
+/*media queries*/
+
+}
+
+@media (max-width: 900px) {
+	.container{
+		background-color: hotpink;
+		width: 450px;
+
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		background-color: lightpink;
+		width: 300px;
+
+	}
+}
+
